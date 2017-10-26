@@ -1,0 +1,27 @@
+{
+  "name": "cronjobjs",
+  "version": "0.0.1",
+  "description": "Run schedules jobs from within your NodeJS or javascript app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timothyverhaeghe/cronjobjs.git"
+  },
+  "keywords": [
+    "Cronjob"
+  ],
+  "author": "Timothy Verhaeghe <me@timothyverhaeghe.com> (timothyverhaeghe.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timothyverhaeghe/cronjobjs/issues"
+  },
+  "homepage": "https://github.com/timothyverhaeghe/cronjobjs#readme",
+  "dependencies": {
+    "eslint": "^4.1.1",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
