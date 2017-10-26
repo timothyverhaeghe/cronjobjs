@@ -1,6 +1,15 @@
 # CronjobJS
 This is a NodeJS package to run a scheduled job without cronjob.
 
+## Table of contents
+- [1. Documenation ](https://github.com/timothyverhaeghe/cronjobjs#1-documentation)  
+    - [1.1. At an exact hour](https://github.com/timothyverhaeghe/cronjobjs#11-at-an-exact-hour)  
+    - [1.2. Every x minutes](https://github.com/timothyverhaeghe/cronjobjs#12-every-x-minutes)  
+    - [1.3. At a specific hour](https://github.com/timothyverhaeghe/cronjobjs#13-at-a-specific-hour)  
+- [2. Contribute ](https://github.com/timothyverhaeghe/cronjobjs#2-contribute)  
+- [3. Support ](https://github.com/timothyverhaeghe/cronjobjs#3-support)  
+- [4. Copyright ](https://github.com/timothyverhaeghe/cronjobjs#4-copyright)
+
 ## 1. Documenation
 ### 1.1. At an exact hour
 ```js
@@ -14,7 +23,7 @@ cronjob({
 });
 ```
 
-### 1.2. Every 5 minutes
+### 1.2. Every x minutes
 ```js
 const cronjob = require('./index');
 
@@ -42,7 +51,10 @@ cronjob({
 ### 2.1. Todo
 - [ ] Better logging
 
-## 3. Copyright
+## 3. Support
+If you have any questions regarding this repo, feel free to contact me at me@timothyverhaeghe.com
+
+## 4. Copyright
 MIT License
 
 Copyright (c) 2017 [Timothy Verhaeghe](https://github.com/timothyverhaeghe)
