@@ -16,8 +16,7 @@ This is a NodeJS package to run a scheduled job without cronjob.
 const cronjob = require('./index');
 
 cronjob({
-  exact: '2017-10-26T21:32:00Z',
-  logs: true
+  exact: '2017-10-26T21:54:00Z',
 }, () => {
   console.log("it's time");
 });
@@ -28,7 +27,7 @@ cronjob({
 const cronjob = require('./index');
 
 cronjob({
-  every: 2, // every x minutes
+  every: 1, // every x minutes
   logs: true,
 }, () => {
   console.log("it's time");
@@ -40,11 +39,13 @@ cronjob({
 const cronjob = require('./index');
 
 cronjob({
-  moment: '21:32:00',
-  logs: true
-}, () => {
+  moment: '00:05:00',
+  logs: false,
+}, (done) => {
   console.log("it's time");
+  done(); // this will schedule the next loop.
 });
+
 ```
 
 ## 2. Contribute
