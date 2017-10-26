@@ -8,6 +8,7 @@ const cronjob = require('./index');
 
 cronjob({
   exact: '2017-10-26T21:32:00Z',
+  logs: true
 }, () => {
   console.log("it's time");
 });
@@ -18,7 +19,8 @@ cronjob({
 const cronjob = require('./index');
 
 cronjob({
-  exact: '2017-10-26T21:32:00Z',
+  every: 2, // every x minutes
+  logs: true,
 }, () => {
   console.log("it's time");
 });
@@ -30,13 +32,17 @@ const cronjob = require('./index');
 
 cronjob({
   moment: '21:32:00',
+  logs: true
 }, () => {
   console.log("it's time");
 });
 ```
 
+## 2. Contribute
+### 2.1. Todo
+- [ ] Better logging
 
-## 2. Copyright
+## 3. Copyright
 MIT License
 
 Copyright (c) 2017 [Timothy Verhaeghe](https://github.com/timothyverhaeghe)
